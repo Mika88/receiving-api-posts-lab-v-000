@@ -1914,3 +1914,10 @@ Completed 201 Created in 86ms (Views: 76.8ms | ActiveRecord: 5.5ms)
 
 Started GET "/products/new" for 47.197.192.160 at 2019-04-18 20:34:00 +0000
 Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/new.html.erb within layouts/application (1141.4ms)
+Completed 200 OK in 1374ms (Views: 1341.7ms | ActiveRecord: 0.7ms)
+
+
